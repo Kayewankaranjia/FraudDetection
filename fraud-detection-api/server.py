@@ -17,6 +17,9 @@ model.eval()
 # Create a logs directory
 os.makedirs("runs", exist_ok=True)
 writer = SummaryWriter(log_dir="runs/fraud_inference")
+
+# This dictionary will hold stats for the current session
+# It will be reset when the server restarts, ideally we would use a database or persistent storage
 stats = {
     "request_count": 0,
     "fraud_predictions": 0,

@@ -30,12 +30,9 @@ docker build -t fraud-detection-api .
 ### 3. Run the container
 
 ```bash
-docker run -d \
-  --name fraud-detection-api \
-  -p 8000:8000 \
-  fraud-detection-api
+docker run -d --name fraud-detection-api -p 8000:8000 -p 6006:6006 fraud-detection-api 
 ```
-
+or use Docker Desktop
 
 ---
 
@@ -75,7 +72,7 @@ To run locally (without Docker):
 
 ```bash
 pip install -r requirements.txt
-uvicorn server:app --host 0.0.0.0 --port 8000
+uvicorn server:app --port 8000 
 ```
 
 ---
