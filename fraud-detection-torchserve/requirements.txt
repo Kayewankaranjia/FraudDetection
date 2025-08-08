@@ -1,0 +1,11 @@
+FastAPI
+torch
+torchvision
+numpy
+pydantic
+requests
+python-dotenv
+torchserve
+torch-model-archiver
+nvgpu==0.9.0
+pynvml==11.4.0
