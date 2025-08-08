@@ -1,1 +1,2 @@
-/fraud-detection-api
+/fraud-detection-api/.env
+/fraud-detection-api/fraud_prevention_model.pt

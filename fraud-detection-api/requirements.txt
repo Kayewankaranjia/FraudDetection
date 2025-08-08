@@ -1,0 +1,8 @@
+torch
+numpy
+fastapi
+uvicorn
+requests
+dotenv 
+tensorboard
+docker
