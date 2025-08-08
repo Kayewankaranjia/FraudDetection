@@ -1,0 +1,16 @@
+torch
+numpy
+ipykernel
+pandas
+scikit-learn
+setuptools==75.0.0
+ydata-profiling
+ipywidgets
+fastapi
+uvicorn
+pydantic
+torchvision
+requests
+dotenv
+torchserve 
+docker
